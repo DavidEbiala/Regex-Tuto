@@ -27,9 +27,11 @@ We will discuss the anchors, the quantifiers, OR Operators, Character classes an
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-
+A regex is considered a literal, it's a constant value that is assigned to constant variables, so the pattern must be wrapped in slash characters (/). If we examine the “Matching a Hexadecimal” regex, you'll see that this is true:
+[/^#?([a-f0-9]{6}|[a-f0-9]{3})$/] 
+Note: The '[]' brackets where added so the code could be better seen for the user.
 ### Anchors
-
+Anchors are regex tokens which dont match any character,
 ### Quantifiers
 
 ### OR Operator
