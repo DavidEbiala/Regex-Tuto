@@ -39,9 +39,26 @@ However "A4" or '56e5690' are not valid entries.
 ### OR Operator
 Remember that a bracket expression does not require the string to meet all of the requirements in the pattern. This means that [a-f0-9] searches for alphanumeric characters or the two special characters included in the pattern. Using the OR operator (|), our given regex can split the combination for two different allowance which is any character from (a-f) &(0-9) that has exactly 6 or 3 characters in it. 
 ### Character Classes
+A character class in a regex defines a set of characters, any one of which can occur in an input string to fulfill a match. We've actually already discussed some character classes. 
+Here are some of the other common character classes:
 
+.—Matches any character except the newline character (\n)
+
+\d—Matches any Arabic numeral digit. This class is equivalent to the bracket expression [0-9].
+
+\w—Matches any alphanumeric character from the basic Latin alphabet, including the underscore (_). This class is equivalent to the bracket expression [A-Za-z0-9_].
+
+\s—Matches a single whitespace character, including tabs and line breaks.
+
+In our given regex string, there are no given character class literals like '.' or '\d' but it does contain alphanumeric data and certain characters.
 ### Flags
+We started this tutorial by explaining that as a literal, a regex must be wrapped in slash characters. The one exception to this rule is with the component known as flags. Flags are placed at the end of a regex, after the second slash, and they define additional functionality or limits for the regex. There are six optional flags that can be used, either separately or together and in any order, but these are the three you're most likely to encounter:
 
+g—Global search: the regex should be tested against all possible matches in a string.
+
+i—Case-insensitive search: case should be ignored while attempting a match in a string
+
+m—Multi-line search: a multi-line input string should be treated as multiple lines
 ### Grouping and Capturing
 
 ### Bracket Expressions
