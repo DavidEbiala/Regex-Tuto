@@ -7,6 +7,11 @@ In the tutorial, we will be discussing how we use a regex combination to verify 
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
+In this particular tutorial however, we will be discussing the regex (regular expression) for a hexadecimal and breakdown each of its components.
+Below is the regex code for accepting every possible hexadecimal value.
+Matching a Hex Value – [/^#?([a-f0-9]{6}|[a-f0-9]{3})$/]
+We will discuss the anchors, the quantifiers, OR Operators, Character classes and flags in this tutorial.
+
 ## Table of Contents
 
 - [Anchors](#anchors)
