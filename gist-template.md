@@ -1,6 +1,7 @@
 # Title (replace with your title)
 
 Introductory paragraph (replace this with your text)
+In the tutorial, we will be discussing how we use a regex combination to verify and allow all possible letters and numbers within a Hexadeciemal value. A Hexadecimal, often abbreviated as "hex," is a numeral system with a base of 16. It uses sixteen distinct symbols to represent numbers: 0-9 for values 0 to 9 and A-F (or a-f) for values 10 to 15. In this system, each digit's value is determined by its position and weight. So, the lowest number in a hex is 0 while the highest is 'F' or 15.
 
 ## Summary
 
