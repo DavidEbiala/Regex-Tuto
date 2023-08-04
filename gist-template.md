@@ -31,9 +31,9 @@ A regex is considered a literal, it's a constant value that is assigned to const
 [/^#?([a-f0-9]{6}|[a-f0-9]{3})$/] 
 Note: The '[]' brackets where added so the code could be better seen for the user.
 ### Anchors
-Anchors are regex tokens which dont match any character,
+Anchors are regex tokens which don't match any character, but rather it asserts something that is found about the given string or the matching procces. It can also assert an engine's current position. In this regex, there are two anchors which is the caret designated with the symbol '^' and the dollar sign designated with the symbol '$'. The Caret represents the beginning of a string or line. So in the given regex '[/^' indicates the regex line has started and everything to the right of it matters. Just as the caret represents the beginning or start of a line, the dollar sign represents the end of a line which would look like this '$/]'
 ### Quantifiers
-
+Now we have quantifiers, quantifiers set the limits of the string that a regex matches. Normally it includes the minimum and maximum number of characters that a regex is looking for. Here our given regex has two quantifiers [/^#?([a-f0-9]{6}|[a-f0-9]{3})$/]. 6 characters or 3 characters depending on the OR operator.
 ### OR Operator
 
 ### Character Classes
